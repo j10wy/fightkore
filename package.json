@@ -1,0 +1,39 @@
+{
+  "name": "fightkore",
+  "version": "1.0.0",
+  "description": "Fightkore website built using nodejs, expressjs, Google Firebase and Slider Revolution.",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon --ignore *.marko.js -e js,marko",
+    "wpsrc": "node_modules/.bin/webpack --config ./webpack.config.js || true",
+    "wpprod": "node_modules/.bin/webpack --config ./webpack.config.js -p",
+    "lesscss": "lessc ./public/src/main.less ./public/dist/lesscss.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffreylowy/fightkore-node-express.git"
+  },
+  "keywords": ["FightKore","Node","Express","Sean","Sharkey"],
+  "author": "Jeffrey Lowy <jeffreylowy@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeffreylowy/fightkore-node-express/issues"
+  },
+  "homepage": "https://github.com/jeffreylowy/fightkore-node-express#readme",
+  "dependencies": {
+    "express": "4.15.3",
+    "lodash": "4.17.4",
+    "marko": "4.4.17",
+    "morgan": "1.8.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-loader": "7.1.1",
+    "babel-preset-env": "^1.5.2",
+    "babel-preset-es2015": "6.24.1",
+    "eslint": "4.1.1",
+    "less": "^2.7.2",
+    "webpack": "3.0.0"
+  }
+}

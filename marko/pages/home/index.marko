@@ -1,0 +1,14 @@
+<include('../../layout')>
+  <@head>
+    <app-head/>
+  </@head>
+  <@body>
+  <h1>Home</h1>
+  <for(person in input.people)>
+    <macro-greet({name:person.name, age:person.age})/>
+  </for>
+  </@body>
+  <@footer>
+    <app-footer/>
+  </@footer>
+</include>
