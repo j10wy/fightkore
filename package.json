@@ -1,36 +1,25 @@
 {
   "name": "fightkore",
   "version": "1.0.0",
-  "description": "Fightkore website built using nodejs, expressjs, Google Firebase and Slider Revolution.",
+  "description": "Fightkore website",
   "main": "app.js",
   "scripts": {
-    "test": "nodemon --ignore *.marko.js -e js,marko",
     "wpsrc": "node_modules/.bin/webpack --config ./webpack.config.js || true",
     "wpprod": "node_modules/.bin/webpack --config ./webpack.config.js -p"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jeffreylowy/fightkore-node-express.git"
+    "url": "git+https://github.com/jeffreylowy/fightkore.git"
   },
   "keywords": [
-    "FightKore",
-    "Node",
-    "Express",
-    "Sean",
-    "Sharkey"
+    "FightKore"
   ],
   "author": "Jeffrey Lowy <jeffreylowy@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jeffreylowy/fightkore-node-express/issues"
+    "url": "https://github.com/jeffreylowy/fightkore/issues"
   },
-  "homepage": "https://github.com/jeffreylowy/fightkore-node-express#readme",
-  "dependencies": {
-    "bootstrap": "^3.3.7",
-    "express": "4.15.3",
-    "marko": "4.4.17",
-    "morgan": "1.8.2"
-  },
+  "homepage": "https://github.com/jeffreylowy/fightkore#readme",
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-core": "^6.25.0",
